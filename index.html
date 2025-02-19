@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog Sitesi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#anasayfa">Blog Sitesi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#anasayfa">Anasayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hakkimizda">Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="yapay-zeka.html">Yapay Zeka</a></li>
+                    <li class="nav-item"><a class="nav-link" href="saglikli-yasam.html">Sağlıklı Yaşam</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gezi.html">Gezi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Jumbotron -->
+    <header id="anasayfa" class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Hoş Geldiniz</h1>
+            <p>Blog sitemizde en yeni yazıları keşfedin!</p>
+        </div>
+    </header>
+    
+    <!-- Blog Kartları -->
+    <div id="bloglar" class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./yapay-zeka-devrimi-daha-fazla-refah-getirecek-mi-1725294835.webp" class="card-img-top" alt="Teknoloji Blogu">
+                    <div class="card-body">
+                        <h5 class="card-title">Yapay Zeka Devrimi</h5>
+                        <p class="card-text">Yapay zeka teknolojileri, günlük hayatımızı nasıl şekillendiriyor? Gelecekte bizi neler bekliyor?</p>
+                        <a href="yapay-zeka.html" class="btn btn-primary">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images.jpg" class="card-img-top" alt="Sağlık Blogu">
+                    <div class="card-body">
+                        <h5 class="card-title">Sağlıklı Yaşamın Püf Noktaları</h5>
+                        <p class="card-text">Dengeli beslenme, düzenli egzersiz ve stres yönetimi ile sağlıklı bir yaşam mümkün mü?</p>
+                        <a href="saglikli-yasam.html" class="btn btn-primary">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./2-1024x683.webp" class="card-img-top" alt="Gezi Blogu">
+                    <div class="card-body">
+                        <h5 class="card-title">Avrupa’nın Gizli Cennetleri</h5>
+                        <p class="card-text">Turistlerin keşfetmediği, Avrupa'nın saklı güzellikleri nelerdir? Sizi keşfe davet ediyoruz!</p>
+                        <a href="gezi.html" class="btn btn-primary">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hakkımızda Kısmı -->
+    <section id="hakkimizda" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Hakkımızda</h2>
+            <p class="lead">Blog sitemiz, en güncel ve ilgi çekici içerikleri okuyucularımıza sunmayı amaçlayan bir platformdur. 
+            Güncel haberler, teknoloji, yaşam ve daha birçok konuda içerikler üreterek bilgi paylaşımı yapıyoruz. 
+            Siz de bloglarımızı takip ederek en yeni gelişmeleri keşfedebilirsiniz!</p>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
